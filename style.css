@@ -44,6 +44,7 @@ h1{
 }
 p{
     width: auto;
+    height: auto;
     margin-top: 5px;
     font-size:20px;
     text-align: justify;
@@ -75,15 +76,18 @@ p{
 }
 
 .section-3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
     
-
 }
 .ex-content:{
     display: block;
     margin-top: 150px;
+    
 }
 .exper:{
-    display: block;
+    
 }
 .experiences-1{
     width: 50%;
@@ -100,6 +104,7 @@ p{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    
 }
 .experiences-2{
     width: 50%;
@@ -114,8 +119,10 @@ p{
     padding-left: 2%;
     display: block;
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image: linear-gradient(180deg, rgb(45, 41, 255), rgb(21, 1, 136));
     border-image-slice: 1;
+    margin-bottom: 500px;
+   
 }
 h3{
     font-size: 20px;
@@ -123,4 +130,7 @@ h3{
 }
 h2{
     font-size: 40px;
+}
+footer p {
+    text-align: center;
 }
