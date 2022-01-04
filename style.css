@@ -3,39 +3,52 @@ body{
     margin: 0;
 }
 section{
+    display:flex; 
+}
+.section-1{
     display:flex;
     padding: 40px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
-.div1{
+.div-top{
     width:50%;
+    line-height: auto;
 }
 .divimg{
     width:50%;
-    padding: 40px;
+    margin-left: 100px;
+
 }
 
 h1{
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 50px;
+    padding: 10px;
+    line-height: 20px;
+    
 }
+
+
 .orcolor{
     color:green;
+    line-height: 0px;
+    
 }
-img{
-    width: px;
-    align: left;
-    margin: auto;
-}
+
 .head2 {
     font-size:30px;
     color:red;
+    padding: 10px;
+    line-height: 5px;
 }
 p{
-    width: 500px;
+    width: auto;
+    margin-top: 5px;
     font-size:20px;
     text-align: justify;
+    padding: 10px;
+    
 }
 .btnc{
     color:white;
@@ -44,9 +57,19 @@ p{
     background-image: linear-gradient( rgb(6, 228, 6), green);
     text-decoration: none;
     text-align: center;
-    width: 200px;
+    width: 300px;
     border-radius:5px;
     padding: 10px 40px;
+    margin-left: 10px;
     
+}
+.section-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.div-bottom{
+    width: 50%;
 }
 
